@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05623D78A19D4263B4A59C1E /* Brandon-Grotesque-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9D746A5190C42ABBF80FFD7 /* Brandon-Grotesque-Bold-Italic.otf */; };
+		08100BDAA3BC45DD9092CAEC /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B06425DFBA5D4273A8BF8049 /* Montserrat-Bold.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-criptos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-criptos.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1971E147ECAB4E94AF5EB6D5 /* Brandon-Grotesque-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7478DD74518B4CDBB6AE3D72 /* Brandon-Grotesque-Thin.otf */; };
+		20A6DC6108FE4368B6E0E717 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3E0EAC49DE4D7EA183C17E /* Montserrat-ExtraBold.ttf */; };
+		2AF157E13D5B4923877F2D5A /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C3B9153518247AAA49141D3 /* Montserrat-ExtraBoldItalic.ttf */; };
+		2C5216B3F38F480A8A9C0703 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F404E7659354404BFDD817A /* Montserrat-ExtraLightItalic.ttf */; };
+		3B064E72AD394C1EB9067899 /* Brandon-Grotesque-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC6675BD34BD4154A59C1407 /* Brandon-Grotesque-Medium.otf */; };
+		506944239A194CFE967AABCC /* Brandon-Grotesque-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 366DD2DE83754A64BB7AD1A6 /* Brandon-Grotesque-Black.otf */; };
+		54EC0809EAAC4A92BC8F0D5F /* Brandon-Grotesque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597927A8B3CD41F190AC2FAF /* Brandon-Grotesque-Regular.otf */; };
+		57FBA2F8BA864CB0AD8E1342 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B07E217CF3945138E7A9253 /* Montserrat-BoldItalic.ttf */; };
+		5BCC80D1D3444CC4B02F49C6 /* Brandon-Grotesque-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 634F307A6EEA4824992FB31B /* Brandon-Grotesque-Black-Italic.otf */; };
+		5F37AD07872244368E5112FD /* Brandon-Grotesque-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73563CB29CD648E5A72A20BF /* Brandon-Grotesque-Thin-Italic.otf */; };
+		724C7B7E12AA4074BC96D063 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 234EF7B5541F4E938EE18F93 /* Montserrat-SemiBoldItalic.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		896B134DF0414DB0A5230BC2 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 258B84920C5D46D586425A36 /* Montserrat-Regular.ttf */; };
+		8A2C8354E0C542C8BA226AB1 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D2542E24A34541AB94B415 /* Montserrat-Thin.ttf */; };
+		8A3066BC5444D195CA585293 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		8F047E3C1F7E4F809EB38A36 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75C7FCD47274415E83977014 /* Montserrat-ThinItalic.ttf */; };
+		9FFCB0B79A3745819979B702 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824081F54E13466AB768A4E0 /* Montserrat-Light.ttf */; };
+		A68610EF6002433A9FCDA6E9 /* Brandon-Grotesque-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F537026914545FE87D222F3 /* Brandon-Grotesque-Bold.otf */; };
+		ABA9B78FCE7449BC992DA538 /* Brandon-Grotesque-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3557CB726004F85B2E016CA /* Brandon-Grotesque-Light.otf */; };
+		ABF1CF7EFE014B809B75EB6E /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01A6F5C09216461CA019D32C /* Montserrat-BlackItalic.ttf */; };
+		BBF9714424D04980B2573A74 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD123B94A46DC84A436E5 /* Montserrat-Italic.ttf */; };
+		BF3E173D96154215B96DAA31 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9E57BA35A6F4F4995506116 /* Montserrat-SemiBold.ttf */; };
+		C6AD276FA3524983B5D8A041 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E87D25C6FF4476D93C60595 /* Montserrat-LightItalic.ttf */; };
+		C6BDD9B9643F45DFB49FB5B3 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA965C25B3B0464B9C08855C /* Montserrat-MediumItalic.ttf */; };
+		CAD68119DF9F43E995A43ED7 /* Brandon-Grotesque-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 973744D765D049BA849BAF63 /* Brandon-Grotesque-Medium-Italic.otf */; };
+		D312E7B4B7DC42A8B69E4B4E /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74A01D834E48430D8081DFA4 /* Montserrat-ExtraLight.ttf */; };
+		E1262BFFFE15493CA4A33D87 /* Brandon-Grotesque-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 767C7813384F439DA165D5A6 /* Brandon-Grotesque-Regular-Italic.otf */; };
+		EF0721423BD548028690B5DA /* Brandon-Grotesque-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25489EF9DCAC423CB1BB2874 /* Brandon-Grotesque-Light-Italic.otf */; };
+		F4FB9760875A4D98A330311C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E54317A3FF74D8D9020319C /* Montserrat-Medium.ttf */; };
+		F73E63F2967B45F392B38F53 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2E065891E7E437893F7DFD3 /* Montserrat-Black.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A6F5C09216461CA019D32C /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0C3B9153518247AAA49141D3 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* criptos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = criptos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = criptos/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = criptos/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = criptos/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		234EF7B5541F4E938EE18F93 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		25489EF9DCAC423CB1BB2874 /* Brandon-Grotesque-Light-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Light-Italic.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Light-Italic.otf"; sourceTree = "<group>"; };
+		258B84920C5D46D586425A36 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2F404E7659354404BFDD817A /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		366DD2DE83754A64BB7AD1A6 /* Brandon-Grotesque-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Black.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Black.otf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-criptos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-criptos.debug.xcconfig"; path = "Target Support Files/Pods-criptos/Pods-criptos.debug.xcconfig"; sourceTree = "<group>"; };
+		3E87D25C6FF4476D93C60595 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		48D2542E24A34541AB94B415 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		4B07E217CF3945138E7A9253 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-criptos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-criptos.release.xcconfig"; path = "Target Support Files/Pods-criptos/Pods-criptos.release.xcconfig"; sourceTree = "<group>"; };
+		597927A8B3CD41F190AC2FAF /* Brandon-Grotesque-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Regular.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Regular.otf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-criptos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-criptos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634F307A6EEA4824992FB31B /* Brandon-Grotesque-Black-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Black-Italic.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Black-Italic.otf"; sourceTree = "<group>"; };
+		6E54317A3FF74D8D9020319C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		73563CB29CD648E5A72A20BF /* Brandon-Grotesque-Thin-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Thin-Italic.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Thin-Italic.otf"; sourceTree = "<group>"; };
+		7478DD74518B4CDBB6AE3D72 /* Brandon-Grotesque-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Thin.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Thin.otf"; sourceTree = "<group>"; };
+		74A01D834E48430D8081DFA4 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		75C7FCD47274415E83977014 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = criptos/AppDelegate.swift; sourceTree = "<group>"; };
+		767C7813384F439DA165D5A6 /* Brandon-Grotesque-Regular-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Regular-Italic.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Regular-Italic.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = criptos/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		824081F54E13466AB768A4E0 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		8F537026914545FE87D222F3 /* Brandon-Grotesque-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Bold.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Bold.otf"; sourceTree = "<group>"; };
+		973744D765D049BA849BAF63 /* Brandon-Grotesque-Medium-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Medium-Italic.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Medium-Italic.otf"; sourceTree = "<group>"; };
+		B06425DFBA5D4273A8BF8049 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B2E065891E7E437893F7DFD3 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B3557CB726004F85B2E016CA /* Brandon-Grotesque-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Light.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Light.otf"; sourceTree = "<group>"; };
+		C9E57BA35A6F4F4995506116 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		DA965C25B3B0464B9C08855C /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F9D746A5190C42ABBF80FFD7 /* Brandon-Grotesque-Bold-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Bold-Italic.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Bold-Italic.otf"; sourceTree = "<group>"; };
+		FB3E0EAC49DE4D7EA183C17E /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FC2DD123B94A46DC84A436E5 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/montserrat/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		FC6675BD34BD4154A59C1407 /* Brandon-Grotesque-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Brandon-Grotesque-Medium.otf"; path = "../src/assets/fonts/brandon-grotesque/Brandon-Grotesque-Medium.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-criptos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* criptos */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = criptos;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-criptos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* criptos */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D6F2D657C8114E39B78CACCC /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* criptos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-criptos.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-criptos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6F2D657C8114E39B78CACCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				634F307A6EEA4824992FB31B /* Brandon-Grotesque-Black-Italic.otf */,
+				366DD2DE83754A64BB7AD1A6 /* Brandon-Grotesque-Black.otf */,
+				F9D746A5190C42ABBF80FFD7 /* Brandon-Grotesque-Bold-Italic.otf */,
+				8F537026914545FE87D222F3 /* Brandon-Grotesque-Bold.otf */,
+				25489EF9DCAC423CB1BB2874 /* Brandon-Grotesque-Light-Italic.otf */,
+				B3557CB726004F85B2E016CA /* Brandon-Grotesque-Light.otf */,
+				973744D765D049BA849BAF63 /* Brandon-Grotesque-Medium-Italic.otf */,
+				FC6675BD34BD4154A59C1407 /* Brandon-Grotesque-Medium.otf */,
+				767C7813384F439DA165D5A6 /* Brandon-Grotesque-Regular-Italic.otf */,
+				597927A8B3CD41F190AC2FAF /* Brandon-Grotesque-Regular.otf */,
+				73563CB29CD648E5A72A20BF /* Brandon-Grotesque-Thin-Italic.otf */,
+				7478DD74518B4CDBB6AE3D72 /* Brandon-Grotesque-Thin.otf */,
+				B2E065891E7E437893F7DFD3 /* Montserrat-Black.ttf */,
+				01A6F5C09216461CA019D32C /* Montserrat-BlackItalic.ttf */,
+				B06425DFBA5D4273A8BF8049 /* Montserrat-Bold.ttf */,
+				4B07E217CF3945138E7A9253 /* Montserrat-BoldItalic.ttf */,
+				FB3E0EAC49DE4D7EA183C17E /* Montserrat-ExtraBold.ttf */,
+				0C3B9153518247AAA49141D3 /* Montserrat-ExtraBoldItalic.ttf */,
+				74A01D834E48430D8081DFA4 /* Montserrat-ExtraLight.ttf */,
+				2F404E7659354404BFDD817A /* Montserrat-ExtraLightItalic.ttf */,
+				FC2DD123B94A46DC84A436E5 /* Montserrat-Italic.ttf */,
+				824081F54E13466AB768A4E0 /* Montserrat-Light.ttf */,
+				3E87D25C6FF4476D93C60595 /* Montserrat-LightItalic.ttf */,
+				6E54317A3FF74D8D9020319C /* Montserrat-Medium.ttf */,
+				DA965C25B3B0464B9C08855C /* Montserrat-MediumItalic.ttf */,
+				258B84920C5D46D586425A36 /* Montserrat-Regular.ttf */,
+				C9E57BA35A6F4F4995506116 /* Montserrat-SemiBold.ttf */,
+				234EF7B5541F4E938EE18F93 /* Montserrat-SemiBoldItalic.ttf */,
+				48D2542E24A34541AB94B415 /* Montserrat-Thin.ttf */,
+				75C7FCD47274415E83977014 /* Montserrat-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* criptos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "criptos" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = criptos;
+			productName = criptos;
+			productReference = 13B07F961A680F5B00A75B9A /* criptos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "criptos" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* criptos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8A3066BC5444D195CA585293 /* PrivacyInfo.xcprivacy in Resources */,
+				5BCC80D1D3444CC4B02F49C6 /* Brandon-Grotesque-Black-Italic.otf in Resources */,
+				506944239A194CFE967AABCC /* Brandon-Grotesque-Black.otf in Resources */,
+				05623D78A19D4263B4A59C1E /* Brandon-Grotesque-Bold-Italic.otf in Resources */,
+				A68610EF6002433A9FCDA6E9 /* Brandon-Grotesque-Bold.otf in Resources */,
+				EF0721423BD548028690B5DA /* Brandon-Grotesque-Light-Italic.otf in Resources */,
+				ABA9B78FCE7449BC992DA538 /* Brandon-Grotesque-Light.otf in Resources */,
+				CAD68119DF9F43E995A43ED7 /* Brandon-Grotesque-Medium-Italic.otf in Resources */,
+				3B064E72AD394C1EB9067899 /* Brandon-Grotesque-Medium.otf in Resources */,
+				E1262BFFFE15493CA4A33D87 /* Brandon-Grotesque-Regular-Italic.otf in Resources */,
+				54EC0809EAAC4A92BC8F0D5F /* Brandon-Grotesque-Regular.otf in Resources */,
+				5F37AD07872244368E5112FD /* Brandon-Grotesque-Thin-Italic.otf in Resources */,
+				1971E147ECAB4E94AF5EB6D5 /* Brandon-Grotesque-Thin.otf in Resources */,
+				F73E63F2967B45F392B38F53 /* Montserrat-Black.ttf in Resources */,
+				ABF1CF7EFE014B809B75EB6E /* Montserrat-BlackItalic.ttf in Resources */,
+				08100BDAA3BC45DD9092CAEC /* Montserrat-Bold.ttf in Resources */,
+				57FBA2F8BA864CB0AD8E1342 /* Montserrat-BoldItalic.ttf in Resources */,
+				20A6DC6108FE4368B6E0E717 /* Montserrat-ExtraBold.ttf in Resources */,
+				2AF157E13D5B4923877F2D5A /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				D312E7B4B7DC42A8B69E4B4E /* Montserrat-ExtraLight.ttf in Resources */,
+				2C5216B3F38F480A8A9C0703 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				BBF9714424D04980B2573A74 /* Montserrat-Italic.ttf in Resources */,
+				9FFCB0B79A3745819979B702 /* Montserrat-Light.ttf in Resources */,
+				C6AD276FA3524983B5D8A041 /* Montserrat-LightItalic.ttf in Resources */,
+				F4FB9760875A4D98A330311C /* Montserrat-Medium.ttf in Resources */,
+				C6BDD9B9643F45DFB49FB5B3 /* Montserrat-MediumItalic.ttf in Resources */,
+				896B134DF0414DB0A5230BC2 /* Montserrat-Regular.ttf in Resources */,
+				BF3E173D96154215B96DAA31 /* Montserrat-SemiBold.ttf in Resources */,
+				724C7B7E12AA4074BC96D063 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				8A2C8354E0C542C8BA226AB1 /* Montserrat-Thin.ttf in Resources */,
+				8F047E3C1F7E4F809EB38A36 /* Montserrat-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-criptos/Pods-criptos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-criptos/Pods-criptos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-criptos/Pods-criptos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-criptos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-criptos/Pods-criptos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-criptos/Pods-criptos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-criptos/Pods-criptos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-criptos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = criptos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = criptos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-criptos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = criptos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = criptos;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "criptos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "criptos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
